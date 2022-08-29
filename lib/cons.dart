@@ -1,0 +1,11 @@
+dynamic token="";
+dynamic name="name";
+dynamic costing="costing";
+dynamic idTicket="idTicket";
+dynamic accountMony="accountMony";
+dynamic accountId;
+dynamic email="email";
+dynamic user_name="user_name";
+dynamic userId;
+dynamic idflights;
+dynamic confirm;
