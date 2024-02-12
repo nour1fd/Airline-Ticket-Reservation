@@ -91,6 +91,12 @@ class _RegisterState extends State<Register> {
                       ],
                     ),
                   ),
+
+
+
+
+
+
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 50),
                     child: Form(

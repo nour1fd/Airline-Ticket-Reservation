@@ -11,13 +11,13 @@ class SingupCubit extends Cubit<SingupState> {
   ShopLoginModel ?loginModel ;
 
   static SingupCubit get(context)=>BlocProvider.of(context);
-  void userRegister({
+ void userRegister({
     required String name,
     required String email,
     required String password,
     required String user_name,
 
-  })  {
+  })   {
     emit(SingupLoading());
     LoginWeb.postData(url: "user/register",
         data: {

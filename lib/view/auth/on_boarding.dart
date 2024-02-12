@@ -67,6 +67,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
           padding: const EdgeInsets.all(20.0),
           child: Column(
             children: [
+
               Expanded(
                 child: PageView.builder(
                     itemBuilder: (context, index) =>

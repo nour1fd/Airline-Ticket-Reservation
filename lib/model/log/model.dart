@@ -2,7 +2,6 @@
 //
 //     final shopLoginModel = shopLoginModelFromJson(jsonString);
 
-import 'package:meta/meta.dart';
 import 'dart:convert';
 
 ShopLoginModel shopLoginModelFromJson(String str) => ShopLoginModel.fromJson(json.decode(str));
